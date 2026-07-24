@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh Pawar | Software & App Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Saurabh Pawar - Software & App Developer. Specializing in Web Development, React, Java, Python, and Machine Learning.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for additional brand icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Glows -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                SAURABH<span>.</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#about" class="nav-link active">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-cta">
+                <a href="#contact" class="btn btn-primary btn-sm">Let's Talk <i data-lucide="arrow-right"></i></a>
+            </div>
+            <button class="mobile-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav">
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#skills" class="mobile-link">Skills</a>
+        <a href="#experience" class="mobile-link">Experience</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#certifications" class="mobile-link">Certifications</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+        <a href="#contact" class="btn btn-primary btn-full">Let's Talk <i data-lucide="arrow-right"></i></a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-glow">
+                    <span class="badge-dot"></span>
+                    <span>Available for Opportunities</span>
+                </div>
+                <h1 class="hero-title">
+                    Building <span class="text-gradient">Intelligent Software</span> & High-Performance Apps
+                </h1>
+                <p class="hero-subtitle">
+                    Dynamic software developer and app engineer specializing in React, Java, Python, and Machine Learning. Committed to crafting high-performance interfaces and scalable systems.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary btn-lg">Explore Work <i data-lucide="code-2"></i></a>
+                    <a href="#contact" class="btn btn-secondary btn-lg">Get in Touch <i data-lucide="mail"></i></a>
+                </div>
+                <div class="hero-metrics">
+                    <div class="metric-card">
+                        <h3>1+</h3>
+                        <p>Years Dev Exp</p>
+                    </div>
+                    <div class="metric-card">
+                        <h3>6+</h3>
+                        <p>Projects Done</p>
+                    </div>
+                    <div class="metric-card">
+                        <h3>13</h3>
+                        <p>Certifications</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <!-- Glowing Code Window Mockup -->
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="dot red"></div>
+                        <div class="dot yellow"></div>
+                        <div class="dot green"></div>
+                        <span class="window-title">saurabh_pawar.py</span>
+                    </div>
+                    <div class="window-body">
+                        <pre><code><span class="code-keyword">class</span> <span class="code-class">Developer</span>:
+    <span class="code-keyword">def</span> <span class="code-func">__init__</span>(<span class="code-self">self</span>):
+        <span class="code-self">self</span>.name = <span class="code-string">"Saurabh Pawar"</span>
+        <span class="code-self">self</span>.role = <span class="code-string">"Software & App Developer"</span>
+        <span class="code-self">self</span>.location = <span class="code-string">"Pune, India"</span>
+        <span class="code-self">self</span>.skills = [
+            <span class="code-string">"React"</span>, <span class="code-string">"Angular"</span>, 
+            <span class="code-string">"Java"</span>, <span class="code-string">"Python"</span>,
+            <span class="code-string">"Machine Learning"</span>
+        ]
+
+    <span class="code-keyword">def</span> <span class="code-func">create_solutions</span>(<span class="code-self">self</span>):
+        <span class="code-keyword">return</span> {
+            <span class="code-string">"focus"</span>: <span class="code-string">"Scalability & UX"</span>,
+            <span class="code-string">"responsive"</span>: <span class="code-literal">True</span>,
+            <span class="code-string">"ai_driven"</span>: <span class="code-literal">True</span>
+        }
+
+<span class="code-comment"># Ready to build something impactful</span>
+saurabh = Developer()
+print(saurabh.create_solutions())</code></pre>
+                    </div>
+                </div>
+                <!-- Mini Glowing Floating Cards -->
+                <div class="floating-card float-1">
+                    <div class="float-icon green"><i data-lucide="layers"></i></div>
+                    <div class="float-details">
+                        <h4>App Developer</h4>
+                        <p>Java & React Native</p>
+                    </div>
+                </div>
+                <div class="floating-card float-2">
+                    <div class="float-icon blue"><i data-lucide="database"></i></div>
+                    <div class="float-details">
+                        <h4>Database Mgmt</h4>
+                        <p>MySQL, SQLite</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands/Tools Carousel (AI Theme-like bar) -->
+    <section class="tools-marquee">
+        <div class="container">
+            <h4 class="marquee-title">Proficient with Modern Tools & Technologies</h4>
+            <div class="marquee-wrapper">
+                <div class="marquee-content">
+                    <span class="tool-item"><i class="fa-brands fa-react"></i> React</span>
+                    <span class="tool-item"><i class="fa-brands fa-angular"></i> Angular</span>
+                    <span class="tool-item"><i class="fa-brands fa-java"></i> Java</span>
+                    <span class="tool-item"><i class="fa-brands fa-python"></i> Python</span>
+                    <span class="tool-item"><i class="fa-solid fa-code"></i> C/C++</span>
+                    <span class="tool-item"><i class="fa-solid fa-database"></i> MySQL</span>
+                    <span class="tool-item"><i class="fa-brands fa-linux"></i> Linux</span>
+                    <span class="tool-item"><i class="fa-solid fa-brain"></i> TensorFlow</span>
+                    <!-- Duplicate for infinite scroll effect -->
+                    <span class="tool-item"><i class="fa-brands fa-react"></i> React</span>
+                    <span class="tool-item"><i class="fa-brands fa-angular"></i> Angular</span>
+                    <span class="tool-item"><i class="fa-brands fa-java"></i> Java</span>
+                    <span class="tool-item"><i class="fa-brands fa-python"></i> Python</span>
+                    <span class="tool-item"><i class="fa-solid fa-code"></i> C/C++</span>
+                    <span class="tool-item"><i class="fa-solid fa-database"></i> MySQL</span>
+                    <span class="tool-item"><i class="fa-brands fa-linux"></i> Linux</span>
+                    <span class="tool-item"><i class="fa-solid fa-brain"></i> TensorFlow</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Summary Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Who I Am</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-info-card glass-card">
+                    <div class="card-glow"></div>
+                    <h3>Professional Summary</h3>
+                    <p class="summary-text">
+                        Dynamic web and application developer with proven hands-on experience at Chordz Technologies, specializing in crafting highly responsive web pages and enhancing user interfaces. Proficient in HTML, CSS, JavaScript, and advanced frameworks, with strong problem-solving skills and project management abilities that drive successful outcomes in collaborative, fast-paced environments. Committed to leveraging software architecture methodologies and machine learning models for high-impact projects.
+                    </p>
+                    <div class="bio-details">
+                        <div class="bio-item">
+                            <span class="bio-label">Location:</span>
+                            <span class="bio-val">Pune, Maharashtra, India</span>
+                        </div>
+                        <div class="bio-item">
+                            <span class="bio-label">Email:</span>
+                            <span class="bio-val">saurabhdpawar2007@gmail.com</span>
+                        </div>
+                        <div class="bio-item">
+                            <span class="bio-label">Phone:</span>
+                            <span class="bio-val">+91 9284430979</span>
+                        </div>
+                        <div class="bio-item">
+                            <span class="bio-label">Languages:</span>
+                            <span class="bio-val">English, Hindi, Marathi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-edu-card glass-card">
+                    <div class="card-glow"></div>
+                    <h3>Education</h3>
+                    <div class="education-block">
+                        <div class="edu-icon"><i data-lucide="graduation-cap"></i></div>
+                        <div class="edu-info">
+                            <span class="edu-duration">Completed</span>
+                            <h4>Diploma in Computer Engineering</h4>
+                            <p class="edu-inst">Cusrow Wadia Institute of Technology</p>
+                            <p class="edu-loc">Pune, Maharashtra</p>
+                            <div class="edu-grade">
+                                <span class="grade-label">Percentage:</span>
+                                <span class="grade-val">73.11%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="socials-title">Social Networks</h3>
+                    <div class="social-links-grid">
+                        <a href="https://linkedin.com/in/saurabh-pawar-4429232b1" target="_blank" class="social-card linkedin">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                            <i data-lucide="external-link" class="ext-icon"></i>
+                        </a>
+                        <a href="https://github.com/yes003" target="_blank" class="social-card github">
+                            <i class="fa-brands fa-github"></i>
+                            <span>GitHub</span>
+                            <i data-lucide="external-link" class="ext-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">My Armament</span>
+                <h2 class="section-title">Technical Expertise</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-category-card glass-card">
+                    <div class="card-glow"></div>
+                    <div class="category-header">
+                        <i data-lucide="monitor" class="cat-icon text-green"></i>
+                        <h3>Frontend Web Dev</h3>
+                    </div>
+                    <ul class="skills-list">
+                        <li>
+                            <div class="skill-info">
+                                <span>HTML5 / CSS3</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-bar" style="width: 90%"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span>React Developer</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-bar" style="width: 85%"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span>Angular Framework</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-bar" style="width: 75%"></div></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Backend / Programming languages -->
+                <div class="skill-category-card glass-card">
+                    <div class="card-glow"></div>
+                    <div class="category-header">
+                        <i data-lucide="terminal" class="cat-icon text-blue"></i>
+                        <h3>Languages</h3>
+                    </div>
+                    <ul class="skills-list">
+                        <li>
+                            <div class="skill-info">
+                                <span>Java Programming</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-bar" style="width: 80%"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span>Python Programming</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-bar" style="width: 85%"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span>C & C++ Programming</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-bar" style="width: 80%"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span>R Programming</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-bar" style="width: 65%"></div></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Database & Infrastructure -->
+                <div class="skill-category-card glass-card">
+                    <div class="card-glow"></div>
+                    <div class="category-header">
+                        <i data-lucide="database" class="cat-icon text-purple"></i>
+                        <h3>Databases & Infrastructure</h3>
+                    </div>
+                    <ul class="skills-list">
+                        <li>
+                            <div class="skill-info">
+                                <span>Database Mgmt (MySQL, SQLite)</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-bar" style="width: 85%"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span>Basic Linux Proficiency</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-bar" style="width: 75%"></div></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Other Competencies -->
+                <div class="skill-category-card glass-card">
+                    <div class="card-glow"></div>
+                    <div class="category-header">
+                        <i data-lucide="cpu" class="cat-icon text-yellow"></i>
+                        <h3>Methodologies & AI</h3>
+                    </div>
+                    <ul class="skills-list">
+                        <li>
+                            <div class="skill-info">
+                                <span>Machine Learning</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-bar" style="width: 75%"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span>Software Architecture</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-bar" style="width: 80%"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span>Project Management</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-bar" style="width: 80%"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info">
+                                <span>Problem-Solving</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-track"><div class="progress-bar" style="width: 90%"></div></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section class="experience-section" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">My Journey</span>
+                <h2 class="section-title">Work Experience</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- Focus on highlighting the Chordz Technologies Experience in theme visual box style -->
+            <div class="experience-showcase glass-card glowing-border-green">
+                <div class="card-glow"></div>
+                <div class="experience-badge">Internship</div>
+                <div class="experience-main">
+                    <div class="experience-meta">
+                        <div class="company-logo-text">CT</div>
+                        <div class="company-info">
+                            <h3>Web Developer Intern</h3>
+                            <p class="company-name text-gradient">Chordz Technologies</p>
+                        </div>
+                    </div>
+                    <div class="experience-date">
+                        <i data-lucide="calendar"></i> Jun 2025 - Aug 2025
+                    </div>
+                </div>
+
+                <div class="experience-divider"></div>
+
+                <div class="experience-details">
+                    <ul class="experience-bullets">
+                        <li>
+                            <div class="bullet-glow"></div>
+                            <p>Developed responsive web pages using HTML, CSS, and JavaScript frameworks, significantly enhancing overall user experience across diverse desktop and mobile devices.</p>
+                        </li>
+                        <li>
+                            <div class="bullet-glow"></div>
+                            <p>Collaborated closely with designers to implement intuitive, user-friendly interfaces and layouts, ensuring complete alignment with project requirements and business goals.</p>
+                        </li>
+                        <li>
+                            <div class="bullet-glow"></div>
+                            <p>Troubleshot and debugged critical performance and logic issues across various web applications, improving overall platform speed, responsiveness, and functionality.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="ai-sys">AI/ML & Systems</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card" data-category="ai-sys">
+                    <div class="card-glow"></div>
+                    <div class="project-icon"><i data-lucide="navigation"></i></div>
+                    <h3>AI-Based Traffic Light Control</h3>
+                    <p class="project-desc">Smart traffic signal controller with emergency vehicle detection and priority routing using OpenCV computer vision models.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>OpenCV</span>
+                        <span>Arduino</span>
+                        <span>ML</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yes003" target="_blank" class="proj-link"><i data-lucide="github"></i> Code</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card" data-category="web">
+                    <div class="card-glow"></div>
+                    <div class="project-icon"><i data-lucide="file-text"></i></div>
+                    <h3>InvoiceFlow - Invoice System</h3>
+                    <p class="project-desc">Smart Invoice Management System equipped with secured user authentication, invoice creation, billing records, and automated reporting.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>MySQL</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yes003" target="_blank" class="proj-link"><i data-lucide="github"></i> Code</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card" data-category="web">
+                    <div class="card-glow"></div>
+                    <div class="project-icon"><i data-lucide="trash-2"></i></div>
+                    <h3>Plastic Waste Management</h3>
+                    <p class="project-desc">A comprehensive platform for managing local waste collections, scheduling recycling pickups, and tracking community efforts.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>JavaScript</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yes003" target="_blank" class="proj-link"><i data-lucide="github"></i> Code</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card glass-card" data-category="web">
+                    <div class="card-glow"></div>
+                    <div class="project-icon"><i data-lucide="home"></i></div>
+                    <h3>Real Estate Dynamic Website</h3>
+                    <p class="project-desc">Dynamic web property listings platform with powerful search queries, category sorting, secure login pages, and dynamic maps.</p>
+                    <div class="project-tech">
+                        <span>React.js</span>
+                        <span>TypeScript</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yes003" target="_blank" class="proj-link"><i data-lucide="github"></i> Code</a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card glass-card" data-category="web">
+                    <div class="card-glow"></div>
+                    <div class="project-icon"><i data-lucide="shopping-cart"></i></div>
+                    <h3>E-Commerce Website</h3>
+                    <p class="project-desc">Online shopping cart application supporting catalog searches, cart addition, checkout orders, and administrator panels.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Angular</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yes003" target="_blank" class="proj-link"><i data-lucide="github"></i> Code</a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card glass-card" data-category="ai-sys">
+                    <div class="card-glow"></div>
+                    <div class="project-icon"><i data-lucide="activity"></i></div>
+                    <h3>Hospital Management System</h3>
+                    <p class="project-desc">Enterprise patient tracking, medical appointment schedules, doctor rosters, and billing system built on object-oriented programming.</p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>OOP</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yes003" target="_blank" class="proj-link"><i data-lucide="github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications-section" id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Credentials</span>
+                <h2 class="section-title">Certifications</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- Certifications Controls -->
+            <div class="cert-controls">
+                <div class="cert-search-box">
+                    <i data-lucide="search"></i>
+                    <input type="text" id="cert-search" placeholder="Search certifications...">
+                </div>
+                <div class="cert-tabs">
+                    <button class="cert-tab-btn active" data-tab="all">All</button>
+                    <button class="cert-tab-btn" data-tab="cloud">Cloud & Arch</button>
+                    <button class="cert-tab-btn" data-tab="ai-ml">AI, ML & Data</button>
+                    <button class="cert-tab-btn" data-tab="dev">Dev & Security</button>
+                </div>
+            </div>
+
+            <!-- Certifications Grid -->
+            <div class="certifications-grid" id="certifications-container">
+                <!-- Cert 1 -->
+                <div class="cert-card glass-card" data-category="dev" data-tags="angular infosys springboard development web">
+                    <span class="cert-provider">Infosys Springboard</span>
+                    <h4>Angular</h4>
+                    <p>Comprehensive training covering components, directives, pipes, services, routing, and HTTP client operations.</p>
+                    <div class="cert-footer">
+                        <span class="cert-tag">Development</span>
+                        <i data-lucide="award" class="award-icon"></i>
+                    </div>
+                </div>
+
+                <!-- Cert 2 -->
+                <div class="cert-card glass-card" data-category="cloud" data-tags="cloud computing infosys springboard architecture aws">
+                    <span class="cert-provider">Infosys Springboard</span>
+                    <h4>Cloud Computing</h4>
+                    <p>Foundations of virtualization, cloud models (SaaS/PaaS/IaaS), and deployment strategies.</p>
+                    <div class="cert-footer">
+                        <span class="cert-tag">Cloud & Infrastructure</span>
+                        <i data-lucide="award" class="award-icon"></i>
+                    </div>
+                </div>
+
+                <!-- Cert 3 -->
+                <div class="cert-card glass-card" data-category="dev" data-tags="blockchain infosys springboard security ledger">
+                    <span class="cert-provider">Infosys Springboard</span>
+                    <h4>Blockchain 101</h4>
+                    <p>Introduction to distributed ledgers, cryptography, smart contracts, and blockchain consensus.</p>
+                    <div class="cert-footer">
+                        <span class="cert-tag">Emerging Tech</span>
+                        <i data-lucide="award" class="award-icon"></i>
+                    </div>
+                </div>
+
+                <!-- Cert 4 -->
+                <div class="cert-card glass-card" data-category="dev" data-tags="cyber security infosys springboard networks defense">
+                    <span class="cert-provider">Infosys Springboard</span>
+                    <h4>Introduction to Cyber Security</h4>
+                    <p>Core security principles, network protection basics, threats, and defensive strategies.</p>
+                    <div class="cert-footer">
+                        <span class="cert-tag">Security</span>
+                        <i data-lucide="award" class="award-icon"></i>
+                    </div>
+                </div>
+
+                <!-- Cert 5 -->
+                <div class="cert-card glass-card" data-category="ai-ml" data-tags="deep learning tensorflow neural networks infosys springboard artificial intelligence ml">
+                    <span class="cert-provider">Infosys Springboard</span>
+                    <h4>Deep Learning with TensorFlow</h4>
+                    <p>Designing, building, and training deep neural networks (CNNs, RNNs) using Keras and TensorFlow APIs.</p>
+                    <div class="cert-footer">
+                        <span class="cert-tag">AI & Machine Learning</span>
+                        <i data-lucide="award" class="award-icon"></i>
+                    </div>
+                </div>
+
+                <!-- Cert 6 -->
+                <div class="cert-card glass-card" data-category="ai-ml" data-tags="generative ai prompt engineering llm large language model infosys springboard">
+                    <span class="cert-provider">Infosys Springboard</span>
+                    <h4>Generative AI for All</h4>
+                    <p>Insights into LLMs, prompt engineering concepts, applications, and ethical implications.</p>
+                    <div class="cert-footer">
+                        <span class="cert-tag">Generative AI</span>
+                        <i data-lucide="award" class="award-icon"></i>
+                    </div>
+                </div>
+
+                <!-- Cert 7 -->
+                <div class="cert-card glass-card" data-category="ai-ml" data-tags="machine learning python ibm skillsbuild classifiers regressions datasets">
+                    <span class="cert-provider">IBM SkillsBuild</span>
+                    <h4>Machine Learning with Python</h4>
+                    <p>Regression, classification, clustering algorithms, model evaluation metrics, and model tuning.</p>
+                    <div class="cert-footer">
+                        <span class="cert-tag">Machine Learning</span>
+                        <i data-lucide="award" class="award-icon"></i>
+                    </div>
+                </div>
+
+                <!-- Cert 8 -->
+                <div class="cert-card glass-card" data-category="ai-ml" data-tags="data analytics deloitte forage simulation databases tables queries visualizations">
+                    <span class="cert-provider">Deloitte (Forage)</span>
+                    <h4>Data Analytics Job Simulation</h4>
+                    <p>Hands-on simulation analyzing company datasets, building visualization dashboards, and presenting insights.</p>
+                    <div class="cert-footer">
+                        <span class="cert-tag">Data Analytics</span>
+                        <i data-lucide="award" class="award-icon"></i>
+                    </div>
+                </div>
+
+                <!-- Cert 9 -->
+                <div class="cert-card glass-card" data-category="dev" data-tags="software engineering hewlett packard enterprise hpe forage simulation testing debugging refactoring coding">
+                    <span class="cert-provider">Hewlett Packard Enterprise (Forage)</span>
+                    <h4>Software Engineering Job Simulation</h4>
+                    <p>Pragmatic exercises in testing, debugging legacy codebases, refactoring, and code reviews.</p>
+                    <div class="cert-footer">
+                        <span class="cert-tag">Software Engineering</span>
+                        <i data-lucide="award" class="award-icon"></i>
+                    </div>
+                </div>
+
+                <!-- Cert 10 -->
+                <div class="cert-card glass-card" data-category="cloud" data-tags="solutions architecture aws amazon web services forage design scaling databases infrastructure">
+                    <span class="cert-provider">AWS (Forage)</span>
+                    <h4>Solutions Architecture Job Simulation</h4>
+                    <p>Design multi-tier cloud architectures, computing services, caching strategies, and secure network infrastructure.</p>
+                    <div class="cert-footer">
+                        <span class="cert-tag">Solutions Architecture</span>
+                        <i data-lucide="award" class="award-icon"></i>
+                    </div>
+                </div>
+
+                <!-- Cert 11 -->
+                <div class="cert-card glass-card" data-category="cloud" data-tags="aws application migration service simplilearn skillup server transfer backup transition">
+                    <span class="cert-provider">Simplilearn Skillup</span>
+                    <h4>AWS Application Migration Service</h4>
+                    <p>Technical modules on migrating workloads, server replication, database synchronization, and cutover testing.</p>
+                    <div class="cert-footer">
+                        <span class="cert-tag">AWS Cloud</span>
+                        <i data-lucide="award" class="award-icon"></i>
+                    </div>
+                </div>
+
+                <!-- Cert 12 -->
+                <div class="cert-card glass-card" data-category="ai-ml" data-tags="databricks machine learning mlops pipelines algorithms simplilearn skillup models">
+                    <span class="cert-provider">Simplilearn Skillup</span>
+                    <h4>Databricks for Machine Learning</h4>
+                    <p>Executing machine learning workflows at scale, feature store tables, model tracking via MLflow, and cluster tuning.</p>
+                    <div class="cert-footer">
+                        <span class="cert-tag">MLOps & Spark</span>
+                        <i data-lucide="award" class="award-icon"></i>
+                    </div>
+                </div>
+
+                <!-- Cert 13 -->
+                <div class="cert-card glass-card" data-category="dev" data-tags="gemini google drive workspace tools artificial intelligence google cloud simplilearn skillup productivity">
+                    <span class="cert-provider">Google Cloud x Simplilearn</span>
+                    <h4>Gemini in Google Drive</h4>
+                    <p>Integrating generative AI features within workspace environments, document summarization, and data extraction.</p>
+                    <div class="cert-footer">
+                        <span class="cert-tag">Generative AI</span>
+                        <i data-lucide="award" class="award-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Get in Touch</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Info cards -->
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Have an interesting project, job opportunity, or just want to chat about software engineering? Feel free to reach out using the form or direct details below.</p>
+                    
+                    <div class="info-details-list">
+                        <div class="info-detail-item">
+                            <div class="info-icon"><i data-lucide="mail"></i></div>
+                            <div class="info-content">
+                                <span>Email Me</span>
+                                <a href="mailto:saurabhdpawar2007@gmail.com">saurabhdpawar2007@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="info-detail-item">
+                            <div class="info-icon"><i data-lucide="phone"></i></div>
+                            <div class="info-content">
+                                <span>Call Me</span>
+                                <a href="tel:+919284430979">+91 9284430979</a>
+                            </div>
+                        </div>
+
+                        <div class="info-detail-item">
+                            <div class="info-icon"><i data-lucide="map-pin"></i></div>
+                            <div class="info-content">
+                                <span>Location</span>
+                                <p>Pune, Maharashtra, India 411013</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-socials-box">
+                        <h4>Find Me On</h4>
+                        <div class="social-icons">
+                            <a href="https://linkedin.com/in/saurabh-pawar-4429232b1" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/yes003" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="contact-form-container glass-card">
+                    <div class="card-glow"></div>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Project Collaboration">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Hi Saurabh, I would like to discuss..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Send Message <i data-lucide="send"></i>
+                        </button>
+                        <div id="form-status" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">SAURABH<span>.</span></a>
+                <p>Crafting responsive designs and smart integrations.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#certifications">Certifications</a>
+            </div>
+            <div class="footer-socials">
+                <a href="https://linkedin.com/in/saurabh-pawar-4429232b1" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/yes003" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Saurabh Pawar. All rights reserved. Built with pride.</p>
+        </div>
+    </footer>
+
+    <!-- Lucide Icons Scripts -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Core Script -->
+    <script src="script.js"></script>
+</body>
+</html>
